@@ -11,91 +11,99 @@ package entidad;
 public class EntidadAnimal {
 
   // codigo de ana "gato" y "perro"
-  public class Gato {
-    private String nombre;
-    private int edad;
-    private String raza;
-
-    public Gato(String nombre, int edad, String raza) {
-        this.nombre = nombre;
-        this.edad = edad;
-        this.raza = raza;
-    }
-
-        public Gato() {
-        }
-    
-        public String getNombre() {
-            return nombre;
-        }
-
-        public void setNombre(String nombre) {
-            this.nombre = nombre;
-        }
-
-        public int getEdad() {
-            return edad;
-        }
-
-        public void setEdad(int edad) {
-            this.edad = edad;
-        }
-
-        public String getRaza() {
-            return raza;
-        }
-
-        public void setRaza(String raza) {
-            this.raza = raza;
-        }
 
     
-}
 
-public class Perro {
-    private String nombre;
-    private int edad;
-    private String raza;
-
-    public Perro(String nombre, int edad, String raza) {
-        this.nombre = nombre;
-        this.edad = edad;
-        this.raza = raza;
-    }
-
-        public Perro() {
-        }
-
-        public String getNombre() {
-            return nombre;
-        }
-
-        public void setNombre(String nombre) {
-            this.nombre = nombre;
-        }
-
-        public int getEdad() {
-            return edad;
-        }
-
-        public void setEdad(int edad) {
-            this.edad = edad;
-        }
-
-        public String getRaza() {
-            return raza;
-        }
-
-        public void setRaza(String raza) {
-            this.raza = raza;
-        }
-
-    
-} 
     
   // codigo de laura "conejo" y "caballo"
     
     
   // codigo de juan "pajaro" y "pato"
+public class Pajaro {
+    private String nombre;
+    private int edad;
+    private String especie;
+
+    public Pajaro(String nombre, int edad, String especie) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.especie = especie;
+    }
+
+    // Getters y setters
+
+        public Pajaro() {
+        }
+
+        public String getNombre() {
+            return nombre;
+        }
+
+        public void setNombre(String nombre) {
+            this.nombre = nombre;
+        }
+
+        public int getEdad() {
+            return edad;
+        }
+
+        public void setEdad(int edad) {
+            this.edad = edad;
+        }
+
+        public String getEspecie() {
+            return especie;
+        }
+
+        public void setEspecie(String especie) {
+            this.especie = especie;
+        }
+        
+    }
+
+public class Pato {
+    private String nombre;
+    private int edad;
+    private String especie;
+
+    public Pato(String nombre, int edad, String especie) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.especie = especie;
+    }
+
+    // Getters y setters
+
+        public Pato() {
+        }
+
+        public String getNombre() {
+            return nombre;
+        }
+
+        public void setNombre(String nombre) {
+            this.nombre = nombre;
+        }
+
+        public int getEdad() {
+            return edad;
+        }
+
+        public void setEdad(int edad) {
+            this.edad = edad;
+        }
+
+        public String getEspecie() {
+            return especie;
+        }
+
+        public void setEspecie(String especie) {
+            this.especie = especie;
+        }
+    
+    
+    
+}
+ 
 
 }
